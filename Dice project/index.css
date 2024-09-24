@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+}
+
+#container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border : none;
+    cursor: pointer;
+    background-color: hsl(218, 95%, 77%);
+}
+
+button:hover{
+    background-color:hsl(218, 95%, 67%);
+}
+
+button:active{
+    background-color: hsl(218, 95%, 57%);
+}
+
+input{
+     font-size: 2rem;
+     width: 150px;
+     text-align: center;
+     font-weight: bold;
+}
